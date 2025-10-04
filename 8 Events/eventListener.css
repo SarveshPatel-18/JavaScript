@@ -1,0 +1,10 @@
+div {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    align-content: center;
+    text-align: center;
+    background-color: navy;
+    color: whitesmoke;
+    margin: 10px;
+}

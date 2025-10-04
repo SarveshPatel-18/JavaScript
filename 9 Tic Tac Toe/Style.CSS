@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", serif;
+    
+}
+
+body {
+    background: linear-gradient(269deg, #192247 0%, #210e17 96.86%);
+    /* background-color: #9C89B8; */
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+    
+.game {
+    /* border: 1px solid red; */
+    width: 59vmin;
+    display: flex;
+    flex-wrap: wrap;
+    height: 54vmin;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    /* position: fixed; */
+}
+
+.btn {
+    /* margin-top: 20px; */
+    height: 15vmin;
+    width: 15vmin;
+    border-radius: 10px;
+    border: none;
+    font-size: 6em;
+    cursor: pointer;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.again {
+    height: 2em;
+    width: 8em;
+    border: none;
+    border-radius: 10px;
+    font-size: 2em;
+    cursor: pointer;
+    margin-top: 0.5em;
+}
+
+.result p {
+    color: white;
+    font-size: 4em;
+}
+
+.hide {
+    display: none;
+}
+
+.result {
+    margin: 0 0 2em 0em;
+}
